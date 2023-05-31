@@ -1,7 +1,7 @@
 import java.lang.Math;
 public class CubesSquares {
     public static void main(String[] args){
-        int i, sq = 0, cq =0, Sum = 0;
+        int i, sq = 0, cq =0, Sum;
         for (i = 1; i<=50; i++){
             if (i%2 == 0){
                 cq += Math.pow(i, 3);
