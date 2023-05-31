@@ -27,12 +27,17 @@ public class Project1 {
 
             if (index != -1) {
                 System.out.println("Employee Details:");
-                System.out.println("Emp No: " + empIds[index]);
-                System.out.println("Emp Name: " + empNames[index]);
-                System.out.println("Department: " + departments[index]);
-                System.out.println("Designation: " + designations[index]);
+                System.out.print("Emp No\t");
+                System.out.print("Emp Name\t");
+                System.out.print("Department\t");
+                System.out.print("Designation\t");
                 int salary = basic[index]+hra[index]+da[index]-it[index];
-                System.out.println("Salary: " + salary);
+                System.out.println("Salary");
+                System.out.print(empIds[index]+"\t");
+                System.out.print(empNames[index]+"\t\t");
+                System.out.print(departments[index]+"\t\t\t");
+                System.out.print(designations[index]+"\t");
+                System.out.print(salary);
             } else {
                 System.out.println("Employee with ID " + empId + " not found.");
             }
