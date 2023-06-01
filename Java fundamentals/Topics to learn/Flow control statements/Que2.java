@@ -1,4 +1,4 @@
-public class EvenOrOdd {
+public class Que2 {
     public static void main(String[] args){
         int val = 5;
         if (val%2 == 0){
