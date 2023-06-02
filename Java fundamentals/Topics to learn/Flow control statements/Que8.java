@@ -4,7 +4,7 @@ public class Que8 {
     public static void main(String[] args){
         Scanner myObj = new Scanner(System.in);
         System.out.println("Enter input:");
-        char val = myObj.charAt(0);
+        char val = myObj.next().charAt(0);
         switch (val) {
             case 'r' -> System.out.println("Red");
             case 'b' -> System.out.println("Blue");
